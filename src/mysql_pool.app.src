@@ -1,0 +1,11 @@
+{application, mysql_pool,
+	[
+		{description, "mysql pool for game engine"},
+		{vsn, "1"},
+		{modules, []},
+		{registered, []},
+		{mod, {'mysql_pool_app', []}},
+		{env, []},
+  		{applications, [kernel, stdlib]}
+	]
+}.	
